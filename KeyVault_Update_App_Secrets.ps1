@@ -1,9 +1,4 @@
-﻿KeyVault_Update_App_Secrets
-
-01 May 2021
-12:02
-
-[CmdletBinding()]
+﻿[CmdletBinding()]
 param ( 
         $AzPsSolutionName,
         $AzPssolutionabbrv,

@@ -1,9 +1,4 @@
-﻿Update_FunctionApp_with_AppInsights_Key
-
-09 April 2021
-14:54
-
-[CmdletBinding()]
+﻿[CmdletBinding()]
 param (
         $AzCLIResourceGroupName,
         $AzCLIFunctionAppName,

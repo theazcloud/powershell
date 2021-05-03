@@ -1,7 +1,6 @@
 # Variables are set up as Pipeline variables not Library variables
 #
 ## Script is used in Pipelines below (please add to list if used in a new pipeline
-# Transactional Automation Azure Functions Release
 #
 
 [CmdletBinding()]

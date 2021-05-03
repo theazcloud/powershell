@@ -1,10 +1,4 @@
-﻿Restore Azure SQL Database to same server
-
-12 March 2021
-09:11
-
-
-[CmdletBinding()]
+﻿[CmdletBinding()]
 
 param (
 

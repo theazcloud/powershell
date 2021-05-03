@@ -1,9 +1,4 @@
-﻿Non_Prod_Configure_App_Gateway_App_Api-Pipeline
-
-01 May 2021
-12:08
-
-[CmdletBinding()]
+﻿[CmdletBinding()]
 param (
               
         $AzEnvPrefix,

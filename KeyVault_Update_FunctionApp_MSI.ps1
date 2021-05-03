@@ -1,9 +1,4 @@
-﻿KeyVault_Update_FunctionApp_MSI
-
-09 April 2021
-14:28
-
-# Variables are set up as Pipeline variables not Library variables
+﻿# Variables are set up as Pipeline variables not Library variables
 #
 ## Script is used in Pipelines below (please add to list if used in a new pipeline
 #
