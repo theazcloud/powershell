@@ -1,9 +1,4 @@
-﻿Remove_App_Gateway_App_Api_Configuration
-
-01 May 2021
-12:16
-
-############ Solution name is also the middle part of the resource group name and is consistent through all the scripts ##############
+﻿############ Solution name is also the middle part of the resource group name and is consistent through all the scripts ##############
 $solutionName = "aprildemo"                                                                                                         
 #                                                                                                                                    #
 ##################################### The abbrviation used in the ARM template deploying the keyvault ################################ 

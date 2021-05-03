@@ -1,9 +1,4 @@
-﻿KeyVault_Import_Wildcard_Certificate
-
-28 April 2021
-19:44
-
-[CmdletBinding()]
+﻿[CmdletBinding()]
 param (
         
         $AzPsSolutionAbbrv,

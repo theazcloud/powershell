@@ -1,9 +1,4 @@
-﻿Retrieve FunctionApp MSI and update KeyVault
-
-12 March 2021
-09:13
-
-# Variables are set up as Pipeline variables not Library variables
+﻿# Variables are set up as Pipeline variables not Library variables
 #
 ## Script is used in Pipelines below (please add to list if used in a new pipeline
 # Transactional Automation Azure Functions Release

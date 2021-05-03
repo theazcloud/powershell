@@ -1,9 +1,4 @@
-﻿Create-Azure-wildcard-pfx-AzModule-KeyVault-Pipeline
-
-09 April 2021
-14:22
-
-[CmdletBinding()]
+﻿[CmdletBinding()]
 
 param (
         

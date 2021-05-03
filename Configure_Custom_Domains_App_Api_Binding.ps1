@@ -1,9 +1,4 @@
-﻿Non_Prod_Configure_Custom_Domains_App_Api_Binding
-
-01 May 2021
-12:06
-
-[CmdletBinding()]
+﻿[CmdletBinding()]
 
 param (
         $solutionName,
