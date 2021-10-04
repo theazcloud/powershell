@@ -22,7 +22,7 @@
 ######################################################################################################################################
 #                                                                                                                                    #
 ############ Solution name is also the middle part of the resource group name and is consistent through all the scripts ##############
-$solutionName = "aprildemo"                                                                                                         
+$solutionName = "aprildemo"
 #                                                                                                                                    #                                                                                                                           #
 ######################## The three character abbreviation used in the ARM template deploying the local keyvault ###################### 
 $localKeyVaultAbbrv = "apd"
@@ -37,11 +37,11 @@ Connect-AzAccount
 Connect-AzureAD
 #                                                                                                                                    #
 ######################################## The three letter environment prefix DEV #####################################################
-$env = "dev"                                                                                                                  
+$env = "dev"
 #                                                                                                                                    #
 ######################## The three character subscription prefix n01 for DEV and TST then p01 for UAT and PRD ########################
 $prefix = "n01"
-#         
+#
 ######################################################################################################################################
 
 ############# Setting the Complete Environment Prefix for all the variables using pipeline naming convention #########################
