@@ -35,7 +35,7 @@ if(!($myFuncApp = Get-AzureADApplication -Filter "DisplayName eq '$($funcappName
     $myApp = New-AzureADApplication -DisplayName $funcappName 
 
 }
-Write-Host "App Regsitration $appName exists or has now been created"
+Write-Host "App Registration $appName exists or has now been created"
 
 
 #######################################################################
