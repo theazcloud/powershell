@@ -32,9 +32,9 @@ if(-not $checkAadmodule){
         }
 else{
 
-    Write-Host 'Azure AD Module detected, happy days!'
+        Write-Host 'Azure AD Module detected, happy days!'
 
-    }
+        }
 
 
 $checkAzmodule = get-module Az
@@ -57,9 +57,9 @@ if(-not $checkAzmodule){
         }
 else{
 
-    Write-Host 'Azure Module detected, happy days!'
+        Write-Host 'Azure Module detected, happy days!'
 
-    }
+        }
 
 
 ###################### Connect Azure AD #############################
@@ -76,6 +76,8 @@ Connect-AzAccount
 
 Write-Host "connected to Azure"
 
+#####################################################################endregion
+
 $context = Get-AzContext
 
 $Sub = Get-AzSubscription -SubscriptionName $context.SubscriptionName
@@ -91,9 +93,9 @@ Write-Host "Checking if App Registration $SCName exists"
 if(-not($mySC = Get-AzureADApplication -Filter "DisplayName eq '$($SCName)'" -ErrorAction SilentlyContinue))
 {
 
-    $appURI = "https://"+$SCName.ToLower()
+        $appURI = "https://"+$SCName.ToLower()
 
-    $mySC = New-AzureADApplication -DisplayName $SCName -Homepage $appURI -ReplyUrls $appURI
+        $mySC = New-AzureADApplication -DisplayName $SCName -Homepage $appURI -ReplyUrls $appURI
 }
 Write-Host "App Regsitration $SCName exists or has now been created"
 
