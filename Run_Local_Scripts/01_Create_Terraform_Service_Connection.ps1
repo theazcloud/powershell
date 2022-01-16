@@ -7,7 +7,7 @@
 ##################### Input Variables #################################################
 
 $env = @('dev')
-$projectshortname = "csa"  # Update this variable with your short name for the project
+$projectshortname = "hta"  # Update this variable with your short name for the project
 
 
 #######################################################################################
